@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="hasil" type="id" />
+    <item name="mulButton" type="id" />
+    <item name="divButton" type="id" />
+    <item name="minButton" type="id" />
+    <item name="addButton" type="id" />
+</resources>

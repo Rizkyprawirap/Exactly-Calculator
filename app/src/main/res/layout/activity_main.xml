@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="20dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:text="Angka Pertama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/firstInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukan angka pertama"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:text="Angka Kedua"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+            />
+
+            <EditText
+                android:id="@+id/secondInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Masukan angka kedua"
+                />
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="addition"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/minButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="-"
+        android:onClick="subtraction"
+        />
+
+    <Button
+        android:id="@+id/divButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="/"
+        android:onClick="division"
+        />
+
+    <Button
+        android:id="@+id/mulButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X"
+        android:onClick="multiply"
+        />
+
+    <TextView
+        android:id="@+id/hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18pt" />
+
+</LinearLayout>
